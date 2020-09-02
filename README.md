@@ -17,7 +17,7 @@ __techs__: _Python, Statistics, Data visualization_
 
 I have worked in projects that involved modeling relational and no-relational db's, providing data analysis and visualization for models, performance indicators and presenting results based on data. Creating pipelines for automations, applications, coleting and treatment about data, and so, developing APIs to consume that data.  Because of my engineering background I still developing embedded and microcontroller systems, and apply machine learning algorithms to analyse and control them.
 
-My specialties include quickly learning new skills and programming languages, problem solving, clean code principles and make the everyone's life easier through automation and code skills. So far I have Python (Scikit-learn, Flask ML algorithms and data analysis), SQL (SQL Server, Postgresql, MySQL, MongoDB, Redis), C/C++, Cloud technologies, Linux, Docker, NodeJS and basic front-end web development, such as React, EJS, CSS, JavaScript, HTML as my scout badges.
+My specialties include quickly learning new skills and programming languages, problem solving, clean code principles and make the everyone's life easier through automation and code skills. So far I have Python (Scikit-learn, Flask ML algorithms and data analysis), SQL (SQL Server, Postgresql, MySQL, MongoDB, Redis), GoodData/PowerBI, C/C++, Cloud technologies, Linux, Docker, NodeJS and basic front-end web development, such as React, EJS, CSS, JavaScript, HTML as my scout badges.
 
 ---
 
