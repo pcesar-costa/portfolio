@@ -33,6 +33,7 @@ _Disclaimer: o contexto apresentado, a empresa, o CEO e as perguntas de negócio
 _Nota: Este projeto foi sugerido por [Meigarom Lopes](https://www.linkedin.com/in/meigarom) em seu blog [sejaumdatascientist.com](https://sejaumdatascientist.com)_
 
 ## Resumo da conclusão realizada pela análise
+<img src="https://0rtu3q.dm.files.1drv.com/y4mQ-GVlbNI1NFxNPuOE3kO8zLKhNs7wnbDnQYep8zKhBacdEXAKlh0-brIes4yPKJ7phoOKAQof3twEdLVv7lBTmO0zgzOAQEHW5951XsiWEhZIz8MKddAjrqXZGDfSskDGqOVjh8iFHGbRpMCvjZn5YB8bApHgitHkNRjeWhJcoGuqO4v6GfltV3Wj8PtlWJCBFnNbLYIA8m662wA9P63qg/Tomada-de-Decis%C3%B5es.png?psid=1"></img>
 
 - __Quais casas o CEO da InteliHouse deveria comprar e por qual preço?__
 
