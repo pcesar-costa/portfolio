@@ -17,6 +17,11 @@ Logo, antes de construir o sistema de recomendação, é necessário coletar e a
 - Se o livro está em Estoque ou não, e a quantidade
 
 ---
+## Da arquitetura do fluxo
+
+<img src="https://0rtj3q.dm.files.1drv.com/y4mqa46_aDV-8InnRTXdmUsSmAYhePXgduHby2WHwpg3Zxxk0_nyWzF7zJXLTfuJ02gfpPlWDSq59Xn7FsBAlwrLZxNVnlXMq15v-NwrG7IvEuyrrM4c_nxnwX_H_KndEVZ3DHXYyDqhesr5fCtX3YxFTzogd0B_AZ_Ctdpk68qWtG3w6ObGT1sJDz8sS4Q4blf0kKCpeumBiQmN7ojHFQeMg?width=3225&height=1013&cropmode=none"></img>
+
+---
 
 ## Para executar esse código
 
