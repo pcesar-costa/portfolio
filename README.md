@@ -11,6 +11,22 @@ __tags__: _Data Science, Insights and Analysis_
 <br>
 __techs__: _Python, Statistics, Data visualization_
 
+### • [Extracting and modeling data for a book recommender system](https://github.com/pcesar-costa/portfolio/tree/master/coletando-e-estruturando-dados-para-recomenda%C3%A7%C3%A3o-de-livros)
+
+For this project, I extract and model data from web with Python to create a useful database to BookClub company, that wants to create a book recommender system to increase the user engagement in their website.
+<br>
+__tags__: _Data cleaning and modeling, Database and NoSQL, Web scraping_
+<br>
+__techs__: _Python, Parallel programming, Apache Airflow and job schedule, MongoDB_
+
+
+### • [Predicting the math grades of Brazilian National Exam](https://github.com/pcesar-costa/portfolio/tree/master/prevendo-notas-do-enem)
+
+The goal is to predict the math grades of students who took the Brazilian National Exam (ENEM), using the other subjects grades. The proposed solution was submited on Codenation Data Science Challenge to enter the AceleraDev program. <br>
+__tags__: _Machine Learning Regressor, Data cleaning and manipulation, Analysis and prediction_
+<br>
+__techs__: _Python, ML Models, Data Science_
+
 ---
 
 ## About me
