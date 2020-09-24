@@ -4,7 +4,7 @@ Repository containing projects completed by me for academic, self learning and h
 
 ## Projects
 
-### • [Finding opportunities to make better deals in house market](https://github.com/pcesar-costa/portfolio/tree/master/encontrando-oportunidades-de-neg%C3%B3cio-em-King-County)
+### • [Finding opportunities to make better deals in the housing market](https://github.com/pcesar-costa/portfolio/tree/master/encontrando-oportunidades-de-neg%C3%B3cio-em-King-County)
 
 In this project, I helped a CEO to understand how to make good decisions about what kind of houses that can be bought to increase the company profit.<br>
 __tags__: _Data Science, Insights and Analysis_
