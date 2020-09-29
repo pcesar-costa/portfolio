@@ -1,29 +1,42 @@
 <img src="https://static01.nyt.com/images/2019/12/17/books/review/17fatbooks/17fatbooks-mobileMasterAt3x.jpg" width="1000" height="325"></img>
 
-# Coletando e estruturando dados para um sistema de recomendação de livros
+# Collecting and structuring data for a book recommendation system
 
-A __Book Club__ é uma startup de troca de livros. O modelo de negócio funciona com base na troca de livros pelos usuários, cada livro cadastrado pelo usuário, dá o direito à uma troca, porém o usuário também pode comprar o livro, caso ele não queira oferecer outro livro em troca.
+__Book Club__ is a book exchange startup. The business model works based on the exchange of books by users, each book registered, gives the right to exchange, however, the user can also buy the book, in case that does not want to offer another in exchange.
 
-A empresa deseja construir um Sistema de Recomendação que impulsione o volume de trocas e vendas entre os usuários, já que uma das ferramentas mais importantes para que esse modelo de negócio rentabilize, é a recomendação. Uma excelente recomendação aumenta o volume de trocas e vendas no site.
+The company is still building your customer base and would like to improve the Recommendation System with data outside of your base so that it boosts the volume of exchanges and sales among users, as one of the most important mechanisms for this business monetize is the recommendation. An excellent recommendation improves the volume of trades and sales on the website.
 
-Os livros para troca, são enviados pelos próprios usuários através de um botão “Fazer Upload”, eles ficam visíveis no site, junto com suas estrelas, que representam o quanto os usuários gostaram ou não do livro, porém a Startup não coleta e nem armazena esses dados em um banco de dados.
+To get the data it's needed, the company believes that a trusted website for extracting the information is `Bookstoscrape`, a website maintained by the community where readers make the recommendation through a rating, representing how much users liked and disliked the book.
 
-Logo, antes de construir o sistema de recomendação, é necessário coletar e armazenar os dados do site. Portanto, o objetivo será coletar e armazenar os seguintes dados:
+After obtaining authorization for scraping, the company would like to collect and store the following data:
 
-- O nome do livro.
-- A categoria do livro.
-- O número de estrelas que o livro recebeu.
-- O preço do livro.
-- Se o livro está em Estoque ou não, e a quantidade
+- The name of the book.
+- The category of the book.
+- The number of stars the book received.
+- The price of the book.
+
+## Solution steps
+    -- C1. Build the data collection process flow
+    -- C2. Develop the web scraping script
+    -- C3. Build the Airflow dags
+    -- C4. Turn data available through an API
+
+## Solution proposal
+    -- 1. Data collection and storage by Airflow
+    -- 2. An API to query the data
+        -- by book name
+        -- by category
+        -- by range rating
 
 ---
-## Da arquitetura do fluxo
+
+## _Airflow architecture_
 
 <img src="https://0rtj3q.dm.files.1drv.com/y4mqa46_aDV-8InnRTXdmUsSmAYhePXgduHby2WHwpg3Zxxk0_nyWzF7zJXLTfuJ02gfpPlWDSq59Xn7FsBAlwrLZxNVnlXMq15v-NwrG7IvEuyrrM4c_nxnwX_H_KndEVZ3DHXYyDqhesr5fCtX3YxFTzogd0B_AZ_Ctdpk68qWtG3w6ObGT1sJDz8sS4Q4blf0kKCpeumBiQmN7ojHFQeMg?width=3225&height=1013&cropmode=none"></img>
 
 ---
 
-## Para executar esse código
+## To run this code
 
 Para a execução do código, basta clonar este repositório para dentro da pasta Home do Airflow (especificamente a pasta `dags`).
 
@@ -49,10 +62,10 @@ Após a primeira execução, ao verificar o banco de dados, terá algo semelhant
 
 ---
 
-## _Sobre os dados_
+## _About the data_
 
-Os dados para serem coletados e armazenados estão disponíveis no site [books.toscrape.com](http://books.toscrape.com)
+The data collected and stored is available on the website [books.toscrape.com](http://books.toscrape.com)
 
-_Disclaimer: o contexto apresentado e a empresa são ficticios e existem somente para a elaboração de um problema._
+_Disclaimer: the context presented, the company, the CEO, and the business questions are fictitious and exist only for the elaboration of a problem. The website was developed and made available on purpose for web scraping._
 
-_Nota: Este projeto foi sugerido por [Meigarom Lopes](https://www.linkedin.com/in/meigarom) em seu blog [sejaumdatascientist.com](https://sejaumdatascientist.com)_
+_* This project was suggested by [Meigarom Lopes](https://www.linkedin.com/in/meigarom) in your blog [sejaumdatascientist.com](https://sejaumdatascientist.com)_
