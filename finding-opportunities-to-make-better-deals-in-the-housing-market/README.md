@@ -33,7 +33,7 @@ _* This project was suggested by [Meigarom Lopes](https://www.linkedin.com/in/me
     -- C4. Exploratory Data Analysis
         -- Hypotheses validation
         -- Multivariate Analysis
-    -- C6. Model Pipeline (Data obtaining until model training)
+    -- C5. Model Pipeline (Data obtaining until model training)
 
 ## Solution proposal
     -- 1. Table (House | Recommendation score)
