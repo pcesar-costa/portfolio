@@ -1,4 +1,4 @@
-<img src="https://static01.nyt.com/images/2019/12/17/books/review/17fatbooks/17fatbooks-mobileMasterAt3x.jpg" width="1000" height="325"></img>
+<img src="https://docs.google.com/uc?id=1oXlPBfpw1ZXhCX123o6PdshP02L0if9T"/>
 
 # Collecting and structuring data for a book recommendation system
 
