@@ -85,6 +85,8 @@ __routes__:
         min: Minimum value for star rating
         max: Maximum value for star rating
 
+<img src="https://docs.google.com/uc?id=1RIKOK9qlm2_LynqjFtpCTBw-naYiVMou" />
+
 ---
 
 ## _About the data_
