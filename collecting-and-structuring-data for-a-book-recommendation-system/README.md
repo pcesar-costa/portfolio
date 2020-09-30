@@ -62,7 +62,7 @@ In the first run, it expected that you have something like this in your MongoDB 
 
 To sending requests through API, install the API `pipenv` packages and run the file `server.py`. The authentication token it's provided from the route: `/token`
 
-Although that, you can access the data through my API deployed in a free dyno in Heroku:
+Although that, you can access the data through my API deployed in a free Heroku dyno:
 
 __root url__: 
 
