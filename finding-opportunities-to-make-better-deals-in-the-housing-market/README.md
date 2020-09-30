@@ -43,7 +43,7 @@ _* This project was suggested by [Meigarom Lopes](https://www.linkedin.com/in/me
 ## To better visualization, look at:
 - [__Exploratory Data Analysis__](https://nbviewer.jupyter.org/github/pcesar-costa/portfolio/blob/master/finding-opportunities-to-make-better-deals-in-the-housing-market/Exploratory%20Data%20Analysis.ipynb)
 - [__Model pipeline__](https://nbviewer.jupyter.org/github/pcesar-costa/portfolio/blob/master/finding-opportunities-to-make-better-deals-in-the-housing-market/Model%20Pipeline.ipynb)
-- [__Report__](https://datastudio.google.com/reporting/41facf33-e9c3-4b2f-8451-bcb136745a4a/page/IIchB)
+- [__Report__](https://cutt.ly/datastudio-rocket-house)
 
 ## Summary of the conclusion by the analysis
 <img src="https://0rtu3q.dm.files.1drv.com/y4mQ-GVlbNI1NFxNPuOE3kO8zLKhNs7wnbDnQYep8zKhBacdEXAKlh0-brIes4yPKJ7phoOKAQof3twEdLVv7lBTmO0zgzOAQEHW5951XsiWEhZIz8MKddAjrqXZGDfSskDGqOVjh8iFHGbRpMCvjZn5YB8bApHgitHkNRjeWhJcoGuqO4v6GfltV3Wj8PtlWJCBFnNbLYIA8m662wA9P63qg/Tomada-de-Decis%C3%B5es.png?psid=1"></img>
