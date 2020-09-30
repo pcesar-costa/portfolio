@@ -37,28 +37,53 @@ After obtaining authorization for scraping, the company would like to collect an
 ---
 
 ## To run this code
+To run this code you'll need the Apache Airflow to schedule the scripts to collect and store the data in MongoDB and, Flask to make API requests.
 
-Para a execução do código, basta clonar este repositório para dentro da pasta Home do Airflow (especificamente a pasta `dags`).
+The packages needed to Airflow are inside the `dags` folder (`Pipfile-Airflow`).
+The packages needed to FlaskAPI are inside the `api` folder (`Pipfile`).
 
-Para instalação do __Apache Airflow__:
+To install __Apache Airflow__:
 
 > pip install apache-airflow
 
-Além disso, será necessário uma instância do MongoDB (o [MongoAtlas](https://www.mongodb.com/cloud/atlas) oferece uma suite gratuita na nuvem).
+Besides, that will be necessary for a MongoDB instance (you can use [Mongodb Atlas](https://www.mongodb.com/cloud/atlas) that provides a free tier in the cloud).
 
-Considerando que você já tem o Airflow instalado e configurado, acesse a pasta:
+Considering that you have Airflow installed and configured, go to the folder `dags > bookstoscrape` and create a file `.env` with MongoDB credentials, the example file is `.env-example`.
 
-> dags > bookstoscrape 
+After that, just run Airflow and start the scheduled service.
 
-e crie um arquivo `.env` com a URI e o nome do banco de dados do MongoDB, conforme arquivo `.env-example` de exemplo.
-
-Depois de configurado o arquivo `.env`, basta iniciar o Airflow e o serviço de agendamento.
-
-Após a primeira execução, ao verificar o banco de dados, terá algo semelhante ao `schema` abaixo:
+In the first run, it expected that you have something like this in your MongoDB instance:
 
 <img src="https://0rtp3q.dm.files.1drv.com/y4meR6UO4QU50ZRTlaDAr5F4NKwb_NtatYskZwjHqDwCvVIT_XSJTnyZEPEG5HcVmX_htimzCPeN6h_Wuubik_hclc9_P0QGzXIMxGHH6tQxYPBXTROX3O6Vj-Ur4iQhD8-j0T5HvfIO4LSo8J1YRcSnYvOqdSvEp4xJufAymAMQE1c5MtBRcr9-fdmk01yiZuSKABzd_8IrswiKHvpT5flxA?width=1666&height=569&cropmode=none"></img>
 
 <img src="https://0rto3q.dm.files.1drv.com/y4mYULsWmD1f0ByH_mq5BBvIVdD4eixST0S7B7YlNJoBMRezHdeilStqevBMb_rDiSW_e_jNsLT2dGflzaXrX62Ka80vacpu5NJr8nV5WPnCRnSY22zUSoPLF9uMvLAYuqvk42wvypTGnaemG7p_RDdfNg06CmzbVMJ7pEvK4kc1xi68aMagFaKID8FP1vW7sDvV8MNultat2INQcamZ_RqZA?width=1667&height=971&cropmode=none"></img>
+
+## Sending API Requests
+
+To sending requests through API, install the API `pipenv` packages and run the file `server.py`. The authentication token it's provided from the route: `/token`
+
+Although that, you can access the data through my API deployed in a free dyno in Heroku:
+
+__root url__: 
+
+    bookscrape.api.pedro-costa.wtf
+
+__routes__:
+    
+    /token
+    return an Authorization Token to send in the request header
+
+    /books
+    return a book list with query parameters informed
+    Query Parameters: 
+        title: Book title
+        category: Book category
+
+    /bookstars
+    return a book list between a <min> and <max> value of star rating
+    Query Parameters: 
+        min: Minimum value for star rating
+        max: Maximum value for star rating
 
 ---
 
