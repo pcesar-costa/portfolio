@@ -10,10 +10,10 @@ To get the data it's needed, the company believes that a trusted website for ext
 
 After obtaining authorization for scraping, the company would like to collect and store the following data:
 
-- The name of the book.
-- The category of the book.
-- The number of stars the book received.
-- The price of the book.
+- The book name
+- The category
+- The number of stars the book received
+- The book price
 
 ## Solution steps
     -- C1. Build the data collection process flow
