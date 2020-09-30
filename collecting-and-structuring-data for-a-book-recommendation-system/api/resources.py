@@ -12,7 +12,7 @@ from config.mongodb import mongo
 class GenerateToken(Resource):
     def get(self):
         secret = os.getenv("JWT_SECRET")
-        exp = dt.datetime.now() + dt.timedelta(hours=1)
+        exp = dt.datetime.utcnow() + dt.timedelta(hours=1)
         jwt_token = jwt.encode({'iss': 'pedro-costa.wtf', 'exp': exp}, secret, algorithm='HS256').decode("utf-8")
         response = json.dumps({'token': jwt_token, 'exp': exp.strftime("%Y-%m-%d %H:%M:%S")})
         return Response(response, mimetype="application/json", status=200)
