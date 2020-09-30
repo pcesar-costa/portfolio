@@ -3,7 +3,6 @@ import jwt
 import json
 from flask import Response, request
 from flask_httpauth import HTTPTokenAuth
-#from functools import wraps
 
 auth = HTTPTokenAuth(scheme='Bearer')
 
@@ -18,6 +17,8 @@ auth = HTTPTokenAuth(scheme='Bearer')
 @auth.verify_token
 def verify_token(jwt_token):
     #print(request.headers)
+    secret = os.getenv("JWT_SECRET")
+    jwt_decoded = jwt.decode(jwt_token, secret)
     try:
         secret = os.getenv("JWT_SECRET")
         jwt_decoded = jwt.decode(jwt_token, secret)
