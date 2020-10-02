@@ -1,6 +1,6 @@
 # Detecting COVID-19 in X-ray
 
-<img src="https://docs.google.com/uc?id=1_8T8NAlzpyhk_M_hydFntzc3ajFxrGHO" />
+<img src="https://docs.google.com/uc?id=1_8T8NAlzpyhk_M_hydFntzc3ajFxrGHO"/>
 
 __Quasix__ is a company that had your contracts canceled after the pandemic and decided to turn your attention to fighting the new coronavirus. The company already worked in the medical field with Artificial Intelligence, assisting in the prognosis of lung diseases and various types of pneumonia.
 
@@ -46,7 +46,7 @@ The datasets that represent the context was obtained from:
 
 * [COVID-19 image data collection](https://github.com/ieee8023/covid-chestxray-dataset)
 
-* [Chest xray pneumonia, ](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+* [Chest xray pneumonia](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
 
 # References
 [[1] Detecting covid 19 in x-ray images, Adrian Rosebrock](https://www.pyimagesearch.com/2020/03/16/detecting-covid-19-in-x-ray-images-with-keras-tensorflow-and-deep-learning/)
