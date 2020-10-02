@@ -46,7 +46,7 @@ The datasets that represent the context was obtained from:
 
 * [COVID-19 image data collection](https://github.com/ieee8023/covid-chestxray-dataset)
 
-* [Chest xray pneumonia, ]('https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia')
+* [Chest xray pneumonia, ](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
 
 # References
 [[1] Detecting covid 19 in x-ray images, Adrian Rosebrock](https://www.pyimagesearch.com/2020/03/16/detecting-covid-19-in-x-ray-images-with-keras-tensorflow-and-deep-learning/)
