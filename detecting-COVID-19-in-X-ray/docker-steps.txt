@@ -1,0 +1,11 @@
+# steps
+
+docker build -f Dockerfile -t covid-app:latest .
+
+heroku container:login
+
+heroku create app-detecting-covid-x-ray
+
+heroku container:push web -a app-detecting-covid-x-ray
+
+heroku container:release web -a app-detecting-covid-x-ray
