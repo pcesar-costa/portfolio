@@ -42,12 +42,12 @@ The project was deployed using the `Streamlit|Docker` and can be accessed at:
 
 # About the data
 
-[[3] Chest xray pneumonia, ]('https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia')
+
 
 # References
 
-[[1] Detecting covid 19 in x-ray images, Adrian Rosebrock](https://www.pyimagesearch.com/2020/03/16/detecting-covid-19-in-x-ray-images-with-keras-tensorflow-and-deep-learning/)
+[ [1] Detecting covid 19 in x-ray images, Adrian Rosebrock](https://www.pyimagesearch.com/2020/03/16/detecting-covid-19-in-x-ray-images-with-keras-tensorflow-and-deep-learning/)
 
-[[2] Radiology data collection and preparation for artificial intelligence, Håvard Jenssen]('https://medium.com/@hbjenssen/covid-19-radiology-data-collection-and-preparation-for-artificial-intelligence-4ecece97bb5b')
+[ [2] Radiology data collection and preparation for artificial intelligence, Håvard Jenssen]('https://medium.com/@hbjenssen/covid-19-radiology-data-collection-and-preparation-for-artificial-intelligence-4ecece97bb5b')
 
-[[3] Detecting covid 19 induced pneumonia from chest-x-rays, Adrian Yijie Xu]('https://towardsdatascience.com/detecting-covid-19-induced-pneumonia-from-chest-x-rays-with-transfer-learning-an-implementation-311484e6afc1')
+[ [3] Detecting covid 19 induced pneumonia from chest-x-rays, Adrian Yijie Xu]('https://towardsdatascience.com/detecting-covid-19-induced-pneumonia-from-chest-x-rays-with-transfer-learning-an-implementation-311484e6afc1')
